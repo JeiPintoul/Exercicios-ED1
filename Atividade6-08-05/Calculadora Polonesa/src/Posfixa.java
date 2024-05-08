@@ -32,7 +32,6 @@ public class Posfixa {
                     numero.setLength(0); // Limpa o número atual
                 }
                 
-                // Restante da lógica permanece a mesma
                 if (Character.isLetterOrDigit(c)) {
                     resultado.append(c).append(" ");
                 } else if (c == '(') {
